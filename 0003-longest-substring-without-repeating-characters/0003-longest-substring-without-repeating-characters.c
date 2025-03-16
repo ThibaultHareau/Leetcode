@@ -5,7 +5,6 @@ int lengthOfLongestSubstring(char* s) {
     int maxlen = 1;
     bool exited;
     for (int i=0;i<strlen(s)-1;i++){
-        printf("%c %d => %d\n", s[i], ascii[s[i]], maxlen);
         if (maxlen + i > strlen(s)) return maxlen;
         ascii[s[i]] = i;
         exited = false;
@@ -19,7 +18,6 @@ int lengthOfLongestSubstring(char* s) {
             }
             ascii[s[j]] = j%128;
             if (s[j] == 121){
-                printf("------ALLOC %c ===> %d   %d\n", s[j], ascii[s[j]], j);
             }
         }
         if (!exited){
@@ -27,7 +25,6 @@ int lengthOfLongestSubstring(char* s) {
         }
         ascii[s[i]] = -1;
         if (s[i] == 121){
-            printf("------ALLOC %c ===> %d\n", s[i], ascii[s[i]]);
         }
     }
     free(ascii);
