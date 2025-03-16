@@ -4,39 +4,20 @@
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     int* result = (int *)malloc(sizeof(int) * 2);
     *returnSize = 2;
-    typedef struct node
-    {
-        int value;
-        int position;
-        struct node* next;
-    }
-    node;
-    node* head = NULL;
-    head = (node *) malloc(sizeof(node));
-    head->value = nums[0];
-    head->position = 0;
-    head->next = NULL;
-    node* current;
-    for (int i=1;i<numsSize;i++){
-        current = head;
-        while(current != NULL){
-            if (nums[i] + current->value == target){
-                result[0] = i;
-                result[1] = current->position;
+    int *positions = (int *)calloc(sizeof(int), 2000000001);
+    for (int i=0; i<numsSize; i++){
+        if (target-nums[i]+1000000000 < 2000000001 && target-nums[i]+1000000000>0){
+            if (positions[target-nums[i]+1000000000] != 0){
+                result[0] = positions[target-nums[i]+1000000000]-1;
+                result[1] = i;
+                free(positions);
                 return result;
             }
-            if (nums[i] == current->value){
-                break;
-            }
-            if (current->next == NULL){
-                current->next = (node *) malloc(sizeof(node));
-                current->next->value = nums[i];
-                current->next->position = i;
-                current->next->next = NULL;
-                break;
-            }
-            current = current->next;
+        }
+        if (positions[nums[i]+1000000000] == 0){
+            positions[nums[i]+1000000000] = i+1;
         }
     }
+    free(positions);
     return result;
 }
