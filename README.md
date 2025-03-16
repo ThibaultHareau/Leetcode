@@ -7,8 +7,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ThibaultHareau/Leetcode/tree/master/0001-two-sum) |
+| [2665-minimum-time-to-repair-cars](https://github.com/ThibaultHareau/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ThibaultHareau/Leetcode/tree/master/0001-two-sum) |
+## Binary Search
+|  |
+| ------- |
+| [2665-minimum-time-to-repair-cars](https://github.com/ThibaultHareau/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 <!---LeetCode Topics End-->
