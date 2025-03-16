@@ -1,5 +1,6 @@
-void updatearray(int *previouscurrent,int totalindex, int current){
-    if (totalindex >= 1){
+void updatearray(int *previouscurrent,int totalindex, int current, int stopindex){
+    if (totalindex < stopindex-2){return;}
+    if (totalindex == stopindex-1){
         previouscurrent[1] = previouscurrent[0];
     }
     previouscurrent[0] = current;
@@ -11,27 +12,27 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     int stopindex = 1 + ((nums1Size + nums2Size)/2);
     int i = 0;
     int j = 0;
-    while (i+j < stopindex){
+    while ((i+j < stopindex)){
         if (i >= nums1Size) {
             // Only nums2 available
-            updatearray(previouscurrent, i+j, nums2[j]);
+            updatearray(previouscurrent, i+j, nums2[j], stopindex);
             j++;
             continue;
         }
         if (j >= nums2Size) {
             // Only nums1 available
-            updatearray(previouscurrent, i+j, nums1[i]);
+            updatearray(previouscurrent, i+j, nums1[i], stopindex);
             i++;
             continue;
         }
         if (nums1[i] <= nums2[j]){
             // Pick element from nums1
-            updatearray(previouscurrent, i+j, nums1[i]);
+            updatearray(previouscurrent, i+j, nums1[i], stopindex);
             i++;
             continue;
         }
         // Pick element from num2
-        updatearray(previouscurrent, i+j, nums2[j]);
+        updatearray(previouscurrent, i+j, nums2[j], stopindex);
         j++;
         continue;
     }
