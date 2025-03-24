@@ -8,6 +8,8 @@ class Solution:
             while j!=k:
                 res = nums[i]+nums[j]+nums[k]
                 gap = abs(target-res)
+                if gap == 0:
+                    return res
                 if abs(target-result) > gap:
                     result = res
                 if res <= target:
