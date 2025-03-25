@@ -38,10 +38,18 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
     //Use merge for two lists then merge
     if (listsSize == 0) return NULL;
     if (listsSize == 1) return lists[0];
-    lists[0] = mergeTwoLists(lists[0], lists[1]);
-    if (listsSize == 2) return lists[0];
-    for (int i=2;i<listsSize;i++){
-        lists[0] = mergeTwoLists(lists[0], lists[i]);
+    int start = 0;
+    int last = listsSize-1;
+    int moving_last;
+    while (last > 0){
+        start = 0;
+        moving_last = last;
+        while (start < moving_last){
+            lists[start] = mergeTwoLists(lists[start], lists[moving_last]);
+            start++;
+            moving_last--;
+            if (start >= moving_last) last = moving_last;
+        }
     }
     return lists[0];
 }
