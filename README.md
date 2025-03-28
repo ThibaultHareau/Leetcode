@@ -149,4 +149,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/ThibaultHareau/Leetcode/tree/master/0029-divide-two-integers) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/ThibaultHareau/Leetcode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
