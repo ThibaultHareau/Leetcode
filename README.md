@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ThibaultHareau/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/ThibaultHareau/Leetcode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/ThibaultHareau/Leetcode/tree/master/0069-sqrtx) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ThibaultHareau/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 ## Linked List
 |  |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/ThibaultHareau/Leetcode/tree/master/0029-divide-two-integers) |
 | [0066-plus-one](https://github.com/ThibaultHareau/Leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/ThibaultHareau/Leetcode/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/ThibaultHareau/Leetcode/tree/master/0069-sqrtx) |
 | [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3817-maximum-containers-on-a-ship](https://github.com/ThibaultHareau/Leetcode/tree/master/3817-maximum-containers-on-a-ship) |
 ## Recursion
