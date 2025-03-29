@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ThibaultHareau/Leetcode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/ThibaultHareau/Leetcode/tree/master/0066-plus-one) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ThibaultHareau/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Hash Table
 |  |
 | ------- |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/ThibaultHareau/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/ThibaultHareau/Leetcode/tree/master/0029-divide-two-integers) |
 | [0066-plus-one](https://github.com/ThibaultHareau/Leetcode/tree/master/0066-plus-one) |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3817-maximum-containers-on-a-ship](https://github.com/ThibaultHareau/Leetcode/tree/master/3817-maximum-containers-on-a-ship) |
 ## Recursion
 |  |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ThibaultHareau/Leetcode/tree/master/0011-container-with-most-water) |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Trie
 |  |
 | ------- |
@@ -117,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ThibaultHareau/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ThibaultHareau/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ThibaultHareau/Leetcode/tree/master/0018-4sum) |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Graph
 |  |
 | ------- |
@@ -138,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ThibaultHareau/Leetcode/tree/master/0020-valid-parentheses) |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -162,4 +167,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0177-nth-highest-salary](https://github.com/ThibaultHareau/Leetcode/tree/master/0177-nth-highest-salary) |
 | [0178-rank-scores](https://github.com/ThibaultHareau/Leetcode/tree/master/0178-rank-scores) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/ThibaultHareau/Leetcode/tree/master/0181-employees-earning-more-than-their-managers) |
+## Monotonic Stack
+|  |
+| ------- |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
+## Number Theory
+|  |
+| ------- |
+| [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 <!---LeetCode Topics End-->
