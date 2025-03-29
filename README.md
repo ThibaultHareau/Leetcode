@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/ThibaultHareau/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/ThibaultHareau/Leetcode/tree/master/0029-divide-two-integers) |
 | [0066-plus-one](https://github.com/ThibaultHareau/Leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/ThibaultHareau/Leetcode/tree/master/0067-add-binary) |
 | [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3817-maximum-containers-on-a-ship](https://github.com/ThibaultHareau/Leetcode/tree/master/3817-maximum-containers-on-a-ship) |
 ## Recursion
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ThibaultHareau/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ThibaultHareau/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/ThibaultHareau/Leetcode/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/ThibaultHareau/Leetcode/tree/master/0067-add-binary) |
 ## Sliding Window
 |  |
 | ------- |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/ThibaultHareau/Leetcode/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/ThibaultHareau/Leetcode/tree/master/0067-add-binary) |
 ## Database
 |  |
 | ------- |
@@ -175,4 +178,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3001-apply-operations-to-maximize-score](https://github.com/ThibaultHareau/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/ThibaultHareau/Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
